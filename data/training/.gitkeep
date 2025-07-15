@@ -1,0 +1,6 @@
+# This file is intentionally left blank to keep the 'training' directory in Git.
+# Place your labeled datasets for LLM fine-tuning here.
+# Example formats:
+# - invoices_dataset.jsonl: Each line is a JSON object with "text" and "label" or "target_json".
+# - contracts_dataset.jsonl
+# - forms_dataset.jsonl

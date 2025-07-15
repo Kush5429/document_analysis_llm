@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: document-analyzer
+    env: docker
+    repo: https://github.com/Kush5429/document_analysis_llm
+    branch: main
+    plan: free
+    dockerContext: .
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: GOOGLE_API_KEY
+        fromEnv: GOOGLE_API_KEY
+

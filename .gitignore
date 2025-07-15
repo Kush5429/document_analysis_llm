@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment variables
+.env
+.streamlit/secrets.toml
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/training/*
+!data/training/.gitkeep
+
+# Models
+models/fine_tuned_llm/
+models/artifacts/
+
+# Temporary files
+temp_*
+*.pdf_output
+*.log
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Streamlit specific
+.streamlit/
