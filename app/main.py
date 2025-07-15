@@ -5,7 +5,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 # Import core functionalities
-from app.core.ocr_engine import extract_text_from_document
+from core.ocr_engine import extract_text_from_document
 from core.llm_client import get_llm_response
 from core.prompt_manager import get_prompt_template
 from core.data_transformer import transform_llm_output_to_dataframe
